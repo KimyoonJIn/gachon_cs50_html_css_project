@@ -1,122 +1,417 @@
-h2{
-	text-align:left;
-	text-decoration: none;
-	margin-left: 20px;
+
+div#main{
+    width:1024px;
+    height: 820px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+;
 
 }
-#scrollmenu{
-     font-family: verdana;
+.top {
+    height:5px;
+    padding-top: 10px;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
 }
-.scrollmenu {
-	text-decoration: none;
-}
-#github
-{
-font-family: verdana;
-
+#gh{
+    padding-top: 15px;
 }
 
-#explore {
-font-family: verdana;
-font-size:150%;
+.left_button{
+    border-radius: 5px;
+    background-color: #4CAF50;
+    border: solid;
+    border-style: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    padding: 10px 10px;
+    margin-left: 8px;
 }
+.right_button {
+    border-radius: 5px;
+    border: none;
+    padding: 10px 10px;
+    margin-left: 8px;
+}
+.menu {
+    border: ridge;
+    background-color: lightgrey;
+    margin-right: 0%;
 
-#features{
-font-family: verdana;
-font-size:150%;
-}
-#signup {
-	background-color: #008000;
-    font-family: verdana;
-    font-size:150%;
-
-}
-
-#enterprise {
-    font-family: verdana;
-    font-size:150%;
-}
-
-#pricing {
-    font-family: verdana;
-    font-size:150%;
-}
-
-#signup {
-    font-family: verdana;
-    font-size:150%;
-}
-#signin {
-    font-family: verdana;
-    font-size:150%;
-}
-
-table, th, td {
-    border: 1px solid black;
-    border-spacing: 5px;
-    border-style: groove;
 
 }
+.explore{
+    padding-left: 8px;
+}
+.features{
+    padding-left: 8px;
+}
+.enterprise {
+    padding-left: 8px;
+}
 
-th {
-    text-align: left;
+.pricing {
+    padding-left: 8px;
 }
-tr {
-	text-align: left;
-}
-#knowRe {
-    font-family: verdana;
-}
-#watch {
-    font-family: verdana;
-}
-#star {
-    font-family: verdana;
-}
-#fork {
-   font-family: verdana;
-}
-#webdevelopment{
-   font-family: verdana;
-}
-#curriculum2016 {
-   font-family: verdana;
-}
-#code
-{
-	color:black;
-	font-family: verdana;
-}
-#issues{
-	color:blue;
-	font-family: verdana;
-}
-#pullrequests {
-	color:blue;
-	font-family: verdana;
-}
-#pulse {
-	color:blue;
-	font-family: verdana;
-}
-#graphs {
-	color:blue;
-	font-family: verdana;
-}
-h3 {
-	font-size:200%;
-	margin-left: 20px;
-}
-#cloneindesktop {
-
-}
-#downloadzip {
-
-}
-body {
-	
-    margin-right: 100px;
+/*the bottom section*/
+footer{
+    width:920px;
+    height: 20px;
     margin-left: 100px;
+    padding-top: 60px;
+    border-top: 2px solid #f8f8f8;
+    /*display: inline;!**!*/
+}
+.footer_font{
+    font-size: 80%;
+}
+.footer_image {
+position: absolute;
+
+}
+#left_footer{
+    float:left;
+    display: inline;
+}
+#right-footer{
+    float: right;
+    display:inline;
+}
+/*the top section*/
+#top_section{
+    height:80px;
+    margin-left: 100px;
+    margin-right: 50px;
+    background: #fafbfc;
+    border-bottom-color: #d3d4d5;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+
+}
+/*below the top section, named middle*/
+#middle{
+    height:50px;
+    margin-left: 100px;
+    margin-right: 50px;
+    border-bottom-color: #d3d4d5;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    /*text-align: center;*/
+    padding-top:15px;
+    color: #4d81c4;
+}
+.blue_middle{
+    font-size: large;
+}
+/*it floats left side*/
+#left_div {
+    float: left;
+    height: auto;
+    width: 70%;
+    display: inline;
+    margin-left: 100px;
+    margin-right: 0px;
+    padding : 0%;
+
+}
+#left_table{width: 790px;
+    height : 100px;}
+
+#right_div{
+    height: auto;
+    width: 200px;
+    float: right;
+    display: inline;
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgba(0, 255, 255, 0);
+}
+#http{
+    margin-left:15px;
+}
+.right_section{
+    padding-left: 20px;
+}
+.sidemenu{
+    display: block;
+    border-left:5px solid #f8f8f8;
+    border-bottom:5px solid #f8f8f8;
+    border-radius:5px;
+    margin-left:5px;
+}
+.sentence{
+    font-size: 11px;
 }
 
+#http{
+    width:150px;
+    /*display: flex;*/
+}
 
+#code{
+    list-style-image: url(./svg/code.svg);
+    font-weight: bold;
+    border-radius: 5px;
+    padding-bottom: 10px;
+    border-top:2px solid #f8f8f8;
+    border-bottom:2px solid #f8f8f8;
+    border-right:5px solid orangered;
+}
+#issue{
+    list-style-image: url(./svg/issue-opened.svg) ;}
+
+#pr{
+
+    list-style-image: url(./svg/git-pull-request.svg);
+    padding-bottom: 10px;
+    border-bottom: 5px solid #f8f8f8;
+}
+#pulse{
+    list-style-image: url(./svg/pulse.svg);
+
+}
+#graphs{
+    list-style-image: url(./svg/graph.svg);
+}
+
+#github_search{
+    width:115px;
+    float: left;
+    height: 25px;
+    border: 2px solid #e6e6e6;
+    border-radius: 3px;
+    display: inline;
+}
+
+#clippy{
+    width:34px;
+    border-radius: 3px;
+    border-color: #f9f9f9;
+    display:inline-block;
+}
+#download{
+    padding-right: 15px;
+    text-align:center;
+    margin-left:15px;
+    width:170px;
+    height:25px;
+}
+
+.blue{
+    color: #4d81c4;
+    margin-top: 10px;
+}
+
+#clone{
+    padding-right: 15px;
+    text-align: center;
+    margin-left: 15px;
+    margin-bottom: 10px;
+    width:170px;
+    height:25px;
+}
+.left_table {
+    float: left;
+    height: 50px;
+    width: 100%;
+    display: inline;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding : 0%;
+    border-style: none;
+    border-width: 1px;}
+
+#sentence_in_left_div{
+    padding-right: 25px;
+}
+.be_left{
+    float:right;
+}
+.table_of_left_table{float: left;
+    height : 30px;
+    width: 100%;
+    display: inline;
+    margin-left: 0px;
+    margin-right: 0px;
+    padding : 1%;
+    border-style: solid;
+    border-width: 1px;
+}
+.set_to_right {
+    text-align : right;
+    float : right;
+    colspan : "4";}
+.set_to_left {text-align : left;}
+.set_to_center{float : center;}
+table {
+    height : 20px;
+}
+/*CSS파일 하나더 적용어떻게 시키나유..?일단 여기 해둘게요 헹*/
+.basic_table_frame_set{ width : 100%;
+    border-collapse: collapse;
+    border : solid 2px #DFDFDF;
+    height : 100px;
+    /*padding : 5px;*/
+    /*margin : 5px;*/
+    border-radius: 5px;
+    text-align : center;
+}
+.basic_td_frame_set{ width : 100%;
+    border-collapse: collapse;
+    border : solid 2px #DFDFDF;
+    height : 30px;
+    padding : 0px;
+    margin : 100px 0px 0px 0px;
+    border-bottom: ;
+}
+.basic_tr_frame_set{
+    width : 100%;
+    border-collapse: collapse;
+    border : solid 2px #DFDFDF;
+    height : 30px;
+    padding : 100px 0px 0px 0px;
+    margin : 5px 0px 0px 0px;
+}
+.big_table_frame_set{
+    width : 100%;
+    border-collapse: collapse;
+    border : solid 2px #DFDFDF;
+    height : 150px;
+    padding : 10px 50px 0px 0px;
+    border-radius: 5px;
+    text-align : left;
+    /*padding-left: 20px;*/
+}
+.middle_size_table_frame_set{
+    width : 100%;
+    border-collapse: collapse;
+    border : solid 2px #DFDFDF;
+    height : 90px;
+    padding : 10px;
+    border-radius: 5px;
+    text-align : left;
+}
+.top_margin{
+    margin : 1.5% 0% 0% 0% ;
+}
+.bottom_margin{
+    margin : 0% 0% 1.5% 0% ;
+}
+.side_padding{
+    padding-left: 20px;
+}
+.font_blue{
+    color : #3D70B6;
+}
+#gray_box{
+    background-color: #F4F4F0;
+}
+.light_gray_box{
+    background-color : #FAFAF8;
+    height : 30px;
+    colspan : "4";
+}
+
+#blue_box{
+    background-color: #E6F1F6;
+    height : 30px;
+    colspan = "4";
+}
+.default_font{
+    font-family : BlinkMacSystemFont, Helvetica, Arial ;
+    font-size : 14px;
+    color : #7F7F7F;
+
+}
+.black_font{
+    font-family : BlinkMacSystemFont, Helvetica, Arial ;
+    font-size : 15px;
+    color : black;
+}
+
+#yellow_line{
+    width : 100%;
+    height : 10px;
+    background-color: #F1E05A;
+}
+#gray_bottom{
+    type : "button";
+    width : 6.7%;
+    padding : 0px 0px 4px 0px;
+    margin : 0px 0px 0px 0px;
+    border-radius: 5px;
+}
+#no_border{
+    border-style: none;
+    width : 750px;
+    height : 30px;
+}
+#branch_button{
+    /*type : "button";*/
+    width : 17%;
+    height : 30px;
+    padding : 0px 0px 4px 0px;
+    margin : 0px 0px 4px 0px;
+    border-radius: 5px;
+    /*box-shadow: 0;*/
+    background-color : #F4F4F0;
+}
+#twin_icon{
+    margin: 4px 0px 2px 0px;
+    float: left;
+    width : 6.7%;
+    padding : 10px 0px 18px 0px;
+    border-radius: 5px;
+    background-color : #48CE31;
+    height: 18px;
+}
+#small_gray_icon{
+    type : "button";
+    width : 35px;
+    height : 30px;
+    padding : 0px 0px 4px 0px;
+    margin : 0px 0px 0px 0px;
+    border-radius: 5px;
+    background-color: #F4F4F0;
+    float : right;}
+/*}*/
+#twin_branch{
+    padding: 10px 0px 0px 0px ;
+    width : 25px;
+    height : 25px;
+    float: none;
+}
+#readme_contents{
+     width : 100% ;
+     height : 160px ;
+     text-align: left;
+    padding-left:20px;
+    font-size: 120%;
+}
+#40height{
+    height : 40px;
+    float : "center";}
+#colpan{
+    colspan : "4"
+}
+#branch_font{
+    width : 100% ;
+    height : 15px ;
+    font-size: 150%;
+    text-align: left;
+    padding-top: 0px;
+}
+#plus_font{
+    width : 100% ;
+    height : 40px ;
+    font-size: 120%;
+    text-align: left;
+    margin : 0px;
+}
+.regular_size{
+    padding: 0px 0px 4px 0px ;
+}
