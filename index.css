@@ -78,13 +78,46 @@ div#main{
     border-bottom-color: #d3d4d5;
     border-bottom-style: solid;
     border-bottom-width: 1px;
-    /*text-align: center;*/
     padding-top:15px;
     color: #4d81c4;
 }
 .blue_middle{
     font-size: large;
 }
+#watch{
+    /*box-shadow: 0;*/
+    width : 80px;
+    height : 25px;
+    background-color : #F4F4F0;
+    /*padding : 10px 0px 10px 5px;*/
+    border-radius: 5px 0px 0px 5px;
+    border :1px solid;
+    border-color: #9F9F9F;
+    margin : 0px 0px 0px 5px;
+    padding-bottom: 10px;
+    /*padding : 3px;*/
+}
+.star{
+    width : 65px;
+    height : 25px;
+    background-color : #F4F4F0;
+    border-radius: 5px 0px 0px 5px;
+    border :1px solid;
+    border-color: #9F9F9F;
+    margin : 0px 0px 0px 5px;
+    padding-bottom: 10px;
+}
+.watch_num{
+    height: 25px;
+    width : 30px;
+    padding : 5px 0px 10px 0px;
+    background-color: white;
+    border-radius : 0px 5px 5px 0px;
+    border : 1px solid;
+    border-color: #9F9F9F;
+    margin : 0px 3px 5px 0px;
+}
+
 /*it floats left side*/
 #left_div {
     float: left;

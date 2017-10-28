@@ -5,6 +5,7 @@
 div#main{
     width:1024px;
     height: 820px;
+    /*background-color : #FAFAF8;*/
 }
 /*.top {*/
     /*height:5px;*/
@@ -25,7 +26,7 @@ div#main{
 }
 #github_image{
     width:110px;
-    padding-top: 15px;
+    padding-top: 0px;
 }
 
 #top_search{
@@ -62,7 +63,7 @@ div#main{
 .right_button {
     margin-top:30px;
     margin-right: 5px;
-     float:right;
+    float:right;
     border-radius: 5px;
     border: groove;
     padding: 8px 8px;
@@ -261,6 +262,11 @@ div#main{
 table {
     height : 20px;
 }
+
+.repo {
+    width : 30px;
+    height : 40px;
+}
 /*CSS파일 하나더 적용어떻게 시키나유..?일단 여기 해둘게요 헹*/
 .basic_table_frame_set{ width : 100%;
     border-radius: 5px;
@@ -279,11 +285,8 @@ table {
 .basic_tr_frame_set{
     width : 100%;
     border-collapse: collapse;
-<<<<<<< HEAD
     border : solid 1px 1px 1px 1px #DFDFDF;
-=======
     border : solid 1px #DFDFDF;
->>>>>>> 4f99277696b282e70b12251ad6b479f90cd03761
     height : 30px;
     padding : 100px 0px 0px 0px;
     margin : 5px 0px 0px 0px;
@@ -396,22 +399,15 @@ table {
     background-color: #F4F4F0;
     height: 5px;
     float : right;}
-<<<<<<< HEAD
+
 .blue_icon {
     filter :  #80A6CD(100%);
 }
 #twin_branch{
-    width : 20px;
+    width : 25px;
     height : 20px;
-    padding : 0px 6px 4px 0px;*/
-=======
-#twin_branch{
-    width : 20px;
-    height : 20px;
-    padding : 0px 6px 4px 0px;*
->>>>>>> 4f99277696b282e70b12251ad6b479f90cd03761
-    margin : 0px 0px 0px 3px;
-    float : right;
+    padding : 0px 6px 4px 0px;
+    margin : 0px 0px 0px 0px;
     border-radius: 5px;
 }
 #readme_contents{
@@ -423,15 +419,11 @@ table {
 }
 #40height{
     height : 40px;
-<<<<<<< HEAD
     float : "center";}
 .colpan{
     colspan = "4"
 }
-=======
-    }
 
->>>>>>> 4f99277696b282e70b12251ad6b479f90cd03761
 #branch_font{
     width : 100% ;
     height : 15px ;
@@ -479,8 +471,6 @@ td {
     height : 13px;
     margin : 2px 3px 3px 7px;
     float : left;
-<<<<<<< HEAD
-=======
 }
 
 /*the bottom section*/
@@ -512,5 +502,4 @@ footer{
     padding-top:25px;
     float: right;
     display:inline;
->>>>>>> 4f99277696b282e70b12251ad6b479f90cd03761
 }
